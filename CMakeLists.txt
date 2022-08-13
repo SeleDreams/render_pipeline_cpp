@@ -36,7 +36,6 @@ else()
 endif()
 
 # === project specific packages ===
-find_package(panda3d REQUIRED p3framework p3direct)
 find_package(Boost REQUIRED filesystem)
 
 find_package(fmt CONFIG REQUIRED)
